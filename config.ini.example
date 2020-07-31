@@ -1,5 +1,6 @@
 [VARS]
-PROJECT=
-DB_API_KEY=
-DB_PASSWORD=
-EMAIL=
+PROJECT=###Projeto do firebase
+DB_API_KEY=###Parâmetro de autenticação
+DB_PASSWORD=###Parâmetro de autenticação
+EMAIL=###Parâmetro de autenticação
+PASTA_ID=###Id da pasta do Google Drive

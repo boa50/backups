@@ -1,0 +1,8 @@
+version: '3'
+services:
+   jupyter:
+      image: boa50/backups-python
+      volumes:
+         - ./config.ini:/usr/src/config.ini
+         - ./client_secret.json:/usr/src/client_secret.json
+      command: ["python", "AniversariantesBackup.py"]
